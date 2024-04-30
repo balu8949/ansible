@@ -1,6 +1,5 @@
 --- #this is my demo play book
 - hosts: web
-  user: ansible
   become: yes
 
   tasks:
