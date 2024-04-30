@@ -1,8 +1,4 @@
-#this is my demo play book
--name: test play book
- - hosts: web
-   become: yes
-
-   tasks:
-    -name:install nginx
-      action: yum pkg=nginx state=latest
+--- #this is my demo play book
+- hosts: web
+  user: ansible
+  become: yes
