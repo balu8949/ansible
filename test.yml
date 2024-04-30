@@ -4,10 +4,10 @@
 
   tasks:
   - name: Install the latest version of Apache
-  ansible.builtin.yum:
-    name: nginx
-    state: latest
+    ansible.builtin.yum:
+     name: nginx
+     state: latest
   - name: Start service httpd, if not started
     service:
-    name: nginx
-    state: started
+     name: nginx
+     state: started
