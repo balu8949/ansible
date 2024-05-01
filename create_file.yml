@@ -5,3 +5,6 @@
   - name: Change file ownership, group and permissions
     ansible.builtin.file:
         path: /etc/balu.conf
+        owner: centos
+        group: centos
+        mode: '0644'
