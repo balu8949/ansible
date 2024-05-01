@@ -1,6 +1,6 @@
 - hosts: web
   become: yes
-
+  user: centos
   tasks:
     - name: Copy file with owner and permissions
       ansible.builtin.copy:
