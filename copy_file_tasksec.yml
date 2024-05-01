@@ -6,3 +6,6 @@
    ansible.builtin.copy:
     src: /etc/balu.conf
     dest: /home/
+    owner: centos
+    group: centos
+    mode: '644
