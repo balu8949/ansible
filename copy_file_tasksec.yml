@@ -7,3 +7,5 @@
         src: /etc/balu.conf
         dest: /home
         owner: centos
+        group: centos
+        mode: '0644
