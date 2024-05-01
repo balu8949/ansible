@@ -5,6 +5,6 @@
   tasks:
     - name: Copy file with owner and permissions
       ansible.builtin.copy:
-        src: /etc/balu.conf
-        dest: /home/balu.conf
+        src: /ansible/test.yml
+        dest: /home/test.yml
         
