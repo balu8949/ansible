@@ -1,0 +1,7 @@
+- hosts: web
+  become: yes
+
+  tasks:
+  - name: Change file ownership, group and permissions
+    ansible.builtin.file:
+        path: /etc/balu.conf
