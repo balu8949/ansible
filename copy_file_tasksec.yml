@@ -6,5 +6,5 @@
     - name: Copy file with owner and permissions
       ansible.builtin.copy:
         src: /ansible/test.yml
-        dest: /home/test.yml
+        dest: /ansible/test.yml
         
