@@ -5,4 +5,4 @@
     - name: Copy file with owner and permissions
       ansible.builtin.copy:
         src: /etc/balu.conf
-        dest: /home/
+        dest: /home
