@@ -6,3 +6,4 @@
       ansible.builtin.copy:
         src: /etc/balu.conf
         dest: /home
+        owner: root
